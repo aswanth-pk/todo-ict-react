@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' exact element={<TodoHome />}/>
-        <Route path='/addtodo' exact element={<AddTodo />} />
+        <Route path='https://thriving-chimera-380e1e.netlify.app/addtodo' exact element={<AddTodo />} />
         <Route path='/completed' exact element={<Completed />} />
         <Route path='/incomplete' exact element={<Incomplete />} />
       </Routes>
